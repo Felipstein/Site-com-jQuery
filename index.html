@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com jQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <main>
+        <div class="buttons-container">
+            <button id="exibir">Exibir</button>
+            <button id="esconder">Esconder</button>
+            <div class="adicionar-boxes">
+                <button id="adicionar">Adicionar</button>
+                <input type="number" id="adicionar-quantidade" value="1" min=1 max=100>
+            </div>
+            <button id="remover">Remover</button>
+            <button id="limpar">Limpar</button>
+            <div class="status-container">
+                <p id="total">Total: 0</p>
+                <p id="status">Status: exibindo</p>
+            </div>
+        </div>
+        <div class="boxes-container">
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
